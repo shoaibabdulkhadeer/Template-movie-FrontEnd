@@ -1,0 +1,54 @@
+.Movies {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    padding: 5px 5px 5px 35px;
+    font-family: poppins;
+}
+
+.Item{
+    margin: 15px;
+    overflow: hidden;
+    width: 220px;
+}
+
+.Item:hover{
+       transform: scale(1.1);
+       transition: 0.8s;
+       cursor: pointer;
+}
+
+.Item img{
+    width: 510px;
+    height: 320px;
+}
+
+.Item button{
+    padding:8px;
+    width: 185px;
+    background-color: black;
+    border: 2px solid red;
+    color: white;
+     font-weight: 700;
+     border-radius: 5px;
+     margin-top:10px ;
+}
+
+.Item button:hover{
+    background-color: rgb(126, 36, 252);
+    cursor: pointer;
+    border-color:rgb(126, 36, 252) ;
+}
+
+.details{
+    color: rgb(144, 144, 144);
+}
+
+.Item p{
+    margin: 5px;
+}
+
+.Item h3{
+    margin: 10px 0px;
+}

@@ -1,0 +1,39 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    position: sticky;
+    top: -10px;
+    background-color: white;
+    font-family: poppins;
+    z-index: 10;
+}
+
+.Navbar h2 {
+    padding-left: 45px;
+    font-weight: 200;
+}
+
+.NavLinks {
+    margin-right: 50px;
+    font-size: 16px;
+}
+
+
+.NavLinks ul{
+    display: flex;
+     list-style: none;
+     align-items: center;
+     justify-content: center;
+     padding: 8px;
+}
+
+.NavLinks ul li {
+    margin: 2px 15px;
+    font-weight: 600;
+    color: rgb(57, 56, 56);
+}
+.NavLinks ul li:hover{
+    cursor: pointer;
+    color: rgb(163, 163, 163);
+}
